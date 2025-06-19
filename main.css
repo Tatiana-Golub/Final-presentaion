@@ -1,0 +1,96 @@
+.team-name {
+  color: lightgoldenrodyellow !important;
+}
+
+.tech {
+  text-align: left;
+  width: fit-content;
+  margin: 0;
+}
+
+.tech-title {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.tech-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.third-row {
+  justify-self: center;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: default;
+  width: 10rem;
+  height: 30px;
+}
+
+.tech-icon {
+  font-size: 24px;
+}
+
+.tech-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  margin-left: 12px;
+}
+
+.icon {
+  width: 30px;
+  margin: 0 0.5rem !important;
+}
+
+.contributions-title {
+  margin-bottom: 7rem !important;
+}
+
+.team-contributions {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+}
+
+.contributions-list {
+  font-size: 1.5rem;
+}
+
+.contributor-name {
+  font-size: 2rem !important;
+  color: lightgoldenrodyellow !important;
+}
+
+.contributor-title {
+  font-size: 1.8rem !important;
+  color: lightgoldenrodyellow !important;
+}
+
+.yauhen-contribution {
+transform: translateY(-80px);
+}
