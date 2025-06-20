@@ -23,20 +23,12 @@
   margin: 0 auto;
 }
 
-.first-row {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
-.second-row {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-
+.first-row,
+.second-row,
 .third-row {
-  justify-self: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .tech-item {
@@ -48,7 +40,7 @@
   border-radius: 8px;
   cursor: default;
   width: 10rem;
-  height: 30px;
+  height: 50px;
 }
 
 .tech-icon {
@@ -59,12 +51,16 @@
   font-weight: 600;
   font-size: 1.1rem;
   color: #333;
-  margin-left: 12px;
+  margin-left: 0.5rem;
 }
 
 .icon {
   width: 30px;
   margin: 0 0.5rem !important;
+}
+
+.title-icon {
+  width: 60px;
 }
 
 .contributions-title {
